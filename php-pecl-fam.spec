@@ -5,7 +5,7 @@ Summary:	%{modname} - File Alteration Monitor Functions
 Summary(pl.UTF-8):	%{modname} - monitor zmian w plikach
 Name:		%{php_name}-pecl-%{modname}
 Version:	5.0.1
-Release:	3
+Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
