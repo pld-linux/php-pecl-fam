@@ -5,7 +5,7 @@ Summary:	%{modname} - File Alteration Monitor Functions
 Summary(pl.UTF-8):	%{modname} - monitor zmian w plikach
 Name:		%{php_name}-pecl-%{modname}
 Version:	5.0.1
-Release:	4
+Release:	5
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
@@ -16,6 +16,7 @@ BuildRequires:	fam-devel
 BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
 Requires:	php(core) >= 5.0.4
+Provides:	php(%{modname}) = %{version}
 Obsoletes:	php-fam
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
